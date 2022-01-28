@@ -41,7 +41,7 @@ async def start(bot, message):
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}! Send Your Api Here 😉**\n\n"
-        "Some Went Worng contact 👉 <a href=\"https://t.me/OFF_CHATS\">@OFF_CHATS</a>.")
+        "Something Went Worng contact 👉 <a href=\"https://t.me/OFF_CHATS\">@OFF_CHATS</a>.")
 
 
 @bot.on_message(filters.regex(r'https?://[^\s]+') & filters.private)
